@@ -1,0 +1,14 @@
+[project]
+name = "calculator-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk>=0.2.4",
+    "google-adk>=1.0.0",
+    "httpx>=0.28.1",
+    "openai[agents]>=1.82.0",
+    "swarm>=0.0.2",
+    "uvicorn>=0.34.2",
+]
